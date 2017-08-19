@@ -2,5 +2,5 @@
 
 #shorter sass watch script 
 # set alias as    sw [directory name]
-
-sass --watch ~/Desktop/$1/scss/main.scss:~/Desktop/$1/css/styles.css
+cd ~/Desktop/$1
+sass --watch scss/main.scss:css/styles.css
